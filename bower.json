@@ -1,0 +1,7 @@
+{
+  "name": "processing-test-app",
+  "private": true,
+  "dependencies": {
+    "Processing.js": "~1.4.9"
+  }
+}
