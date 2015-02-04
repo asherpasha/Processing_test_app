@@ -13,6 +13,7 @@
       pdeURL = match[1] + match[2] + '/app.pde';
     }
   }
+  window.alert(pdeURL);
 
   if (pdeURL) {
     $('#can').attr('data-processing-sources', pdeURL);
