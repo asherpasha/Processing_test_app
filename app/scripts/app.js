@@ -6,7 +6,7 @@
   var allScripts, i, re, pdeURL;
   
   allScripts = document.querySelectorAll('script');
-  re = /^(.*)(\/bower_components\/Araport_bower_test)\/hello\.js??(.*)?$/;
+  re = /^(.*)(\/Araport_bower_test[^\/]*)\/(.*)hello\.js??(.*)?$/;
   for (i = 0; i < allScripts.length && ! pdeURL; i++) {
     if (re.test(allScripts[i].src)) {	  
       var match = re.exec(allScripts[i].src);
