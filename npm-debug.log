@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'info',
+1 verbose cli   'generator-aip-science-apps' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose request where is /generator-aip-science-apps
+5 verbose request registry https://registry.npmjs.org/
+6 verbose request id 01660182ae13ffd0
+7 verbose url raw /generator-aip-science-apps
+8 verbose url resolving [ 'https://registry.npmjs.org/',
+8 verbose url resolving   './generator-aip-science-apps' ]
+9 verbose url resolved https://registry.npmjs.org/generator-aip-science-apps
+10 verbose request where is https://registry.npmjs.org/generator-aip-science-apps
+11 info trying registry request attempt 1 at 16:23:04
+12 http GET https://registry.npmjs.org/generator-aip-science-apps
+13 http 404 https://registry.npmjs.org/generator-aip-science-apps
+14 verbose headers { date: 'Thu, 22 Jan 2015 21:23:40 GMT',
+14 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+14 verbose headers   'content-type': 'application/json',
+14 verbose headers   'cache-control': 'max-age=0',
+14 verbose headers   'content-length': '52',
+14 verbose headers   'accept-ranges': 'bytes',
+14 verbose headers   via: '1.1 varnish',
+14 verbose headers   age: '0',
+14 verbose headers   'x-served-by': 'cache-dfw1826-DFW',
+14 verbose headers   'x-cache': 'MISS',
+14 verbose headers   'x-cache-hits': '0',
+14 verbose headers   'x-timer': 'S1421961819.990108,VS0,VE62',
+14 verbose headers   'keep-alive': 'timeout=10, max=50',
+14 verbose headers   connection: 'Keep-Alive' }
+15 silly registry.get cb [ 404,
+15 silly registry.get   { date: 'Thu, 22 Jan 2015 21:23:40 GMT',
+15 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 silly registry.get     'content-type': 'application/json',
+15 silly registry.get     'cache-control': 'max-age=0',
+15 silly registry.get     'content-length': '52',
+15 silly registry.get     'accept-ranges': 'bytes',
+15 silly registry.get     via: '1.1 varnish',
+15 silly registry.get     age: '0',
+15 silly registry.get     'x-served-by': 'cache-dfw1826-DFW',
+15 silly registry.get     'x-cache': 'MISS',
+15 silly registry.get     'x-cache-hits': '0',
+15 silly registry.get     'x-timer': 'S1421961819.990108,VS0,VE62',
+15 silly registry.get     'keep-alive': 'timeout=10, max=50',
+15 silly registry.get     connection: 'Keep-Alive' } ]
+16 error 404 404 Not Found: generator-aip-science-apps
+16 error 404
+16 error 404 'generator-aip-science-apps' is not in the npm registry.
+16 error 404 You should bug the author to publish it
+16 error 404
+16 error 404 Note that you can also install from a
+16 error 404 tarball, folder, or http url, or git url.
+17 error System Linux 3.2.0-4-amd64
+18 error command "/usr/local/bin/node" "/usr/local/bin/npm" "info" "generator-aip-science-apps"
+19 error cwd /home/asher/Processing_test_app
+20 error node -v v0.10.35
+21 error npm -v 1.4.28
+22 error code E404
+23 verbose exit [ 1, true ]

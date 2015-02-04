@@ -2,6 +2,7 @@
   "name": "processing-test-app",
   "private": true,
   "dependencies": {
-    "Processing.js": "~1.4.9"
+    "Processing.js": "~1.4.9",
+    "Araport_bower_test": "https://github.com/asherpasha/Araport_bower_test.git"
   }
 }
